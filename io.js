@@ -74,13 +74,12 @@ io.on("connection", function (socket) {
 
 
 io.privateChat = function (data) {
-    console.log(data);
     var client = users[data.to];
     if(client) {
         var sentMessage = {
             username: data.from,
             message: data.message,
-            talkTo: data.talkTo
+            talkTo: data.to
         }
         client.emit("private_chat", sentMessage);
     }else{
