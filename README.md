@@ -1,4 +1,6 @@
 # demo of socket.io with mosca use rabbitmq
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stableShip/rabbitmq_socketio_demo.svg)](https://greenkeeper.io/)
 rabbitmq_socketio_demo
 
 ## Run mq server
